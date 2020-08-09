@@ -1,0 +1,10 @@
+from primePy import primes
+a=primes.first(20)
+print(a)
+print(primes.check(124563))
+b=primes.factor(98)
+print(b)
+c=primes.factors(98)
+print(c)
+print(primes.upto(102))
+print(primes.between(9,178))
